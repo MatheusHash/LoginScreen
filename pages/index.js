@@ -12,7 +12,7 @@ const IndexPage = ()=>{
           <Input placeholder="matheus@mail.com" mb={3} type="email" />
           <Input placeholder="*******"          mb={6} type="password" />
           <Button colorScheme="blue">Log in</Button>
-          <Link mb={6} href="./ForgotPassword">Forgot Password?</Link>
+          <Link mb={6} href="./Home">Entrar como visitante</Link>
           <Button colorScheme="purple" onClick={toggleColorMode}>
           Change theme
           </Button>
